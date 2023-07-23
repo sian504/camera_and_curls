@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Playview:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Profile Picture*/
+
+.logo {
+    background: url("./images/sian.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    z-index: 4;
+}
+
+/*--------------------------------------------Nav Bar*/
+
+body {
+    font-family: Montserrat;
+    background-color: black;
+}
+
+.nav justify-content-end {
+    font-size: 400%;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: silver;
+    text-decoration: none;
+    cursor: pointer;
+}
