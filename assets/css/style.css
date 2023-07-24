@@ -18,18 +18,18 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 25%;
-    max-height: 10%;
+    width: 275;
+    height: 250px;
 }
 
 .name {
     font-family: "Playfair+Display", sans-serif;
     font-weight: 100;
     font-size: 100px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 50px;
-    margin-right: 0;
-    text-align: right;
+    margin-right: 50px;
+    text-align: center;
     color: #fafafa;
 
 
@@ -40,13 +40,13 @@ header {
 .list-inline {
     padding: 30px;
     margin-top: 20px;
-    margin-left: 90px;
-    margin-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
     text-align: center;
 
 }
 
-a {
+.list-inline a {
     font-size: 25px;
     text-align: center;
     padding: 0;
@@ -54,16 +54,58 @@ a {
     text-transform: uppercase;
 }
 
-a:hover {
+.list-inline a:hover {
     color: #e84610;
     text-decoration: none;
     cursor: pointer;
 }
 
-/*--------------------------------------------Carousel*/
+/* ----------------------------------------Footer */
 
-.slideshow-container {
-    max-width: 1000px;
+footer {
+    background-color: #e84610;
+    color: #fafafa;
+    max-height: 90px;
+    margin: 0;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+}
+
+footer h5 {
+    text-transform: uppercase;
+}
+    
+footer a {
+    text-transform: lowercase;
+    color: #fafafa;
+    font-size: 16px;
+}
+
+footer a:hover {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer a i:hover {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+        
+    width: 32px;
+    height: 32px;
+    margin-bottom: 500px;
+    font-size: 30px;
+    text-align: center;
     position: relative;
-    margin: auto;
+    bottom: 40px;
+    
 }
