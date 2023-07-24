@@ -1,6 +1,10 @@
 @import url("https: //fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat");
 
-/*--------------------------------------------Background colours*/
+/*--------------------------------------------Colours*/
+
+body {
+    background: linear-gradient(to right, #000000, #302F2F)
+}
 
 
 /*--------------------------------------------Header*/
@@ -14,8 +18,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
-
+    max-width: 25%;
+    max-height: 10%;
 }
 
 .name {
@@ -23,25 +27,23 @@ header {
     font-weight: 100;
     font-size: 100px;
     margin-top: 50px;
-    margin-right: 50px;
-    text-align: center;
-    color: #fff;
-    background-color: #000000;
+    margin-left: 50px;
+    margin-right: 0;
+    text-align: right;
+    color: #fafafa;
+
 
 }
 
 /*--------------------------------------------Nav Bar*/
 
-body {
-    background-color: #000000;
-}
-
 .list-inline {
     padding: 30px;
-    margin-top: 80px;
-    margin-right: 60px;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 10px;
     text-align: center;
-    
+
 }
 
 a {
@@ -53,7 +55,15 @@ a {
 }
 
 a:hover {
-    color: silver;
+    color: #e84610;
     text-decoration: none;
     cursor: pointer;
+}
+
+/*--------------------------------------------Carousel*/
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
