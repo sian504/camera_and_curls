@@ -2,7 +2,7 @@
 
 ![Picture of the website on different devices](image-url)
 
-I decided to build a portfolio to showcase my photography and provide a means of contact for people that would like to collaborate. You are able to visit this [here](portfolio-url).
+I decided to build a portfolio to showcase my photography and provide a means of contact for people that would like to collaborate. You are able to visit this [here](https://sian504.github.io/camera_and_curls/).
 
 ## Business Goals
 
@@ -87,3 +87,7 @@ The website will be presented with a black background throughout with the except
 I will be using Playfair Display for the headings and Montserrat for the body. By using this font pairing, my portfolio website will have a cohesive and polished appearance, while still allowing your images to take center stage.
 
 ---
+
+## Credits 
+
+[Homepage design] (https://www.youtube.com/watch?v=K3NNBnSA3C4) This website helped me in particular with the linear gradient of the background colour. I felt this added more style to the website over the original black background. 
