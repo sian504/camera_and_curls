@@ -79,9 +79,9 @@ The homepage will consist of a visually appealing slideshow of some of my photos
 
 I have linked the wireframes for each device below: 
 
-[Desktop](assets/wireframes/desktop-view.pdf)
-[Tablet](assets/wireframes/tablet-view.pdf)
-[Mobile](assets/wireframes/mobile-view.pdf)
+- [Desktop](assets/wireframes/desktop-view.pdf)
+- [Tablet](assets/wireframes/tablet-view.pdf)
+- [Mobile](assets/wireframes/mobile-view.pdf)
 
 ## Surface
 
