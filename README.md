@@ -77,8 +77,11 @@ The homepage will consist of a visually appealing slideshow of some of my photos
 
 ## Skeleton
 
-Wireframes for each page on each device [here](wireframe-url).
+I have linked the wireframes for each device below: 
 
+[Desktop] (assets/wireframes/desktop-view.pdf)
+[Tablet] (assets/wireframes/tablet-view.pdf)
+[Mobile] (assets/wireframes/mobile-view.pdf)
 
 ## Surface
 
