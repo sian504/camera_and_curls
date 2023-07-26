@@ -79,9 +79,9 @@ The homepage will consist of a visually appealing slideshow of some of my photos
 
 I have linked the wireframes for each device below: 
 
-[Desktop] (assets/wireframes/desktop-view.pdf)
-[Tablet] (assets/wireframes/tablet-view.pdf)
-[Mobile] (assets/wireframes/mobile-view.pdf)
+[Desktop](assets/wireframes/desktop-view.pdf)
+[Tablet](assets/wireframes/tablet-view.pdf)
+[Mobile](assets/wireframes/mobile-view.pdf)
 
 ## Surface
 
@@ -93,4 +93,4 @@ I will be using Playfair Display for the headings and Montserrat for the body. B
 
 ## Credits 
 
-[Homepage design] (https://www.youtube.com/watch?v=K3NNBnSA3C4) This website helped me in particular with the linear gradient of the background colour. I felt this added more style to the website over the original black background. 
+[Homepage design](https://www.youtube.com/watch?v=K3NNBnSA3C4) This website helped me in particular with the linear gradient of the background colour. I felt this added more style to the website over the original black background. 

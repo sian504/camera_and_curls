@@ -109,3 +109,11 @@ footer a i:hover {
     bottom: 40px;
     
 }
+
+/* ----------------------------------------Media Queries */
+
+@media screen and (max-width: 480px) {
+    .logo {
+        display: none;
+    }
+}
