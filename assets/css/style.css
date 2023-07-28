@@ -31,6 +31,7 @@ header {
     margin-right: 50px;
     text-align: center;
     color: #fafafa;
+   
 
 
 }
@@ -49,26 +50,21 @@ header {
     cursor: pointer;
 }
 
-.topnav {
-    overflow: hidden;
+button {
+    margin-left: 50px;
 }
 
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+li a {
+    font-size: 25px;
+    color: white;
     text-transform: uppercase;
 }
 
-.topnav a:hover {
-    color: #e84610;
-    text-decoration: none;
-    cursor: pointer;
-}
+li a:hover {
+        color: #e84610;
+        text-decoration: none;
+        cursor: pointer;
+    }
 
 /*--------------------------------------------About me*/
 
@@ -131,14 +127,16 @@ footer a i:hover {
 
 /* ----------------------------------------Media Queries*/
 
-/*@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
 
     .logo {
         display: none;
     }
 
-    #nav {
-        display: none;
-        }  
-}*/
+    .name {
+        font-size: 40px;
+        font-weight: 100;
+    }
+
+}
 
