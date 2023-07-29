@@ -6,7 +6,6 @@ body {
     background: linear-gradient(to right, #000000, #302F2F)
 }
 
-
 /*--------------------------------------------Header*/
 
 header {
@@ -20,7 +19,6 @@ header {
     background-size: cover;
     width: 275;
     height: 250px;
-   
 }
 
 #name {
