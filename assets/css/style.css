@@ -1,4 +1,4 @@
-@import url("https: //fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat");
+@import url("https: //fonts.googleapis.com/css2?family=Montserrat");
 
 /*--------------------------------------------Colours*/
 
@@ -20,60 +20,52 @@ header {
     background-size: cover;
     width: 275;
     height: 250px;
+   
 }
 
-.name {
-    font-family: "Playfair+Display", sans-serif;
+#name {
+    font-family: "Montserrat", sans-serif;
     font-weight: 100;
-    font-size: 100px;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-size: 50px;
     text-align: center;
     color: #fafafa;
-   
-
-
 }
 
 /*--------------------------------------------Nav Bar*/
 
-.list-inline a {
+.navbar-light .navbar-nav .active>.nav-link {
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    }
+
+.navbar-light .navbar-nav .nav-link {
     font-size: 25px;
     color: white;
     text-transform: uppercase;
 }
 
-.list-inline a:hover {
+.navbar-light .navbar-nav .nav-link:hover {
     color: #e84610;
     text-decoration: none;
     cursor: pointer;
 }
 
-button {
-    margin-left: 50px;
-}
-
-li a {
-    font-size: 25px;
+button.navbar-toggler {
     color: white;
-    text-transform: uppercase;
 }
 
-li a:hover {
-        color: #e84610;
-        text-decoration: none;
-        cursor: pointer;
-    }
 
 /*--------------------------------------------About me*/
 
 .about {
     font-size: 20px;
     color: white;
-    margin: 50px;
+    margin: 10px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: justify;
 }
-
 
 
 /* ----------------------------------------Footer */
@@ -127,16 +119,37 @@ footer a i:hover {
 
 /* ----------------------------------------Media Queries*/
 
-@media screen and (max-width: 480px) {
+@media screen 
+and (max-device-width: 480px) {
 
     .logo {
         display: none;
     }
 
-    .name {
+    #name {
         font-size: 40px;
         font-weight: 100;
+        text-align: left;
+    }
+        .row {
+        display: flex;
+        flex-direction: column;
+        flex-flow: row wrap;
+    }
+        button {
+        order: 1;
+    }
+        #name {
+        order: 2;
+    }
+        ul.navbar-nav {
+        text-align: right;
+    }
+    .about {
+        width: 90%;
     }
 
-}
+
+
+
 
