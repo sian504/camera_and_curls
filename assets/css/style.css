@@ -89,22 +89,12 @@ button.navbar-toggler {
     font-size: 20px;
     color: white;
     margin-top: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 40px;
+    text-align: justify;
 }
 
 #cta {
     border-color: #fafafa;
     background-color: #e84610;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin-top: 20px;
-    margin-left: 90px;
     font-weight: 600;
     text-transform: uppercase;
     color: #fafafa
@@ -187,12 +177,17 @@ and (max-device-width: 480px) {
         button {
         order: 1;
     }
-        #name {
-        order: 2;
-    }
         ul.navbar-nav {
         text-align: right;
     }
     .about {
-        width: 60%;
+        width: 90%;
+        text-align: center;
+        margin-top: 30px, 10px, 10px, 10px;
     }
+
+    .carousel{
+        margin-top: 40px;
+        height: 300px;
+    } 
+    
