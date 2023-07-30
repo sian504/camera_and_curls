@@ -294,3 +294,16 @@ footer a i:hover {
         width: 100%;
     }
 }
+
+@media screen and (max-device-width: 820px) {
+
+    .row {
+            display: flex;
+            flex-direction: column;
+            flex-flow: row wrap;
+        }
+
+    ul.navbar-nav {
+            text-align: right;
+        }
+}
