@@ -12,15 +12,6 @@ header {
     margin: 0;
 }
 
-.logo {
-    background: url("../images/sian.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 275;
-    height: 250px;
-}
-
 #name {
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
@@ -106,6 +97,39 @@ button.navbar-toggler {
     cursor: pointer;
 }
 
+/* ----------------------------------------Portfolio */
+
+div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 150px;
+    
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #fafafa;
+}
+
+.image-titles {
+    font-family: "Montserrat", sans-serif;
+        font-weight: 75;
+        text-align: left;
+        color: #fafafa;
+        margin-left: 15px;
+}
+
 /* ----------------------------------------Footer */
 
 footer {
@@ -158,11 +182,7 @@ footer a i:hover {
 /* ----------------------------------------Media Queries*/
 
 @media screen 
-and (max-device-width: 480px) {
-
-    .logo {
-        display: none;
-    }
+and (max-device-width: 500px) {
 
     #name {
         font-size: 30px;
@@ -190,4 +210,4 @@ and (max-device-width: 480px) {
         margin-top: 40px;
         height: 300px;
     } 
-    
+    }
