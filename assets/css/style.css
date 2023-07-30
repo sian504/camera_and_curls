@@ -147,7 +147,46 @@ div.desc {
 /* ----------------------------------------About page */
 
 #sian {
-    width:
+    width: 100%;
+    margin-top: 30px;
+}
+
+.raise {
+    margin-bottom: 75px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #e84610;
+    color: #fafafa;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    color: #000000;
+}
+
+.container {
+    background-color: #fafafa;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 75px;
 }
 
 /* ----------------------------------------Footer */
