@@ -242,6 +242,34 @@ footer a i:hover {
     float: right;
 }
 
+/*--------------------------------------------404 Error Page*/
+
+* {
+    text-align:center;
+}
+
+.error-title {
+        font-family: "Playfair Display", sans-serif;
+        font-size: 50px;
+        font-weight: 75;
+        color: #fafafa;
+} 
+
+.error-text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+
+#error-button {
+        border-color: #fafafa;
+        background-color: #e84610;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        color: #fafafa;
+} 
+
 /* ----------------------------------------Media Queries*/
 
 @media screen and (max-width: 500px) {
