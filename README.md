@@ -121,20 +121,21 @@ The slideshow takes up most of the real estate on the homepage on all devices. I
 
 ### Portfolio 
 
-![Picture of the website on different devices]()
+![Portolio](assets/images/features-portfolio.png)
 
 The portfolio page is laid out by country and displays a H2 heading stating the name of the country and 4 thumbnail images with a description of each underneath. The user is able to click these thumbnails to see a larger size of the photo if they want to. This slideshow is responsive and is laid out slightly different on the mobile and tablet to ensure that the user can still look at the photos without having to enlarge them if they want. 
 
 ### About/ Contact page 
 
 ![About section](assets/images/features-about.png)
-![Picture of the website on different devices]()
+
+![Contact form](assets/images/features-contactform.png)
 
 The About page contains an image of me and gives the user a little insight into my route into photography and how I got into taking photos. This text introduces the contact form which consists of 3 text inputs and an email input. The name and email address are required to submit the form so that I am able to respond to them. I styled this to match the overall feel of the website. 
 
 ### Social links 
 
-![Picture of the website on different devices]()
+![Social links](assets/images/features-sociallinks.png)
 
 In the footer, I have added 5 Font Awesome icons linking users to Instagram, Pinterest, YouTube, LinkedIn and GitHub if they wish to view more photos or learn more about me.
 
