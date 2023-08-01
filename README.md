@@ -141,6 +141,34 @@ In the footer, I have added 5 Font Awesome icons linking users to Instagram, Pin
 
 ---
 
+## What I used
+
+To create this project I used the following:
+
+- HTML - The coding language used to create the structure of the website.
+- CSS  -The coding language used to style the site throughout.
+- Javascript - This was taken from Bootstrap and assisted with the responsive navbar.
+- Google Fonts - Fonts for both the headers and the body text were taken from here. The fonts I used were Playfair and  Montserrat.
+- Font Awesome - Used for the social media icons in the footer.
+- Chrome Developer Tools - Used to test responsiveness across the site.
+- GitHub - Used as a storage space for my pushed code.
+- Git - Used for version control to make commits and push to GitHub.
+- CodeAnywhere - The cloud development environment I used to build the site.
+- Balsamiq - Used to create the wireframes.
+- W3C Markup Validation Service - Used to validate all HTML written for the site.
+- W3C CSS Validation Service - Validated all CSS code written for the site.
+- AmIResponsive - Used to create the responsive image you see at the top of the README file.
+
+---
+
+## Testing
+
+In the planning stages of my site, I outlined the following user stories: 
+
+- As a first time user, I want to see a visually appealing portfolio, so I can quickly understand the photographer's style.
+- As a first time user, I want to navigate a clear and intuitive portfolio, so I can easily explore different sections, such as the photographer's different categories of work and their contact page.
+- As a first time user, I want to view high-quality images in a responsive image gallery, so I can enjoy the photographer's work on any device without sacrificing image quality.
+
 ## Credits 
 
 [Homepage design](https://www.youtube.com/watch?v=K3NNBnSA3C4) This website helped me in particular with the linear gradient of the background colour. I felt this added more style to the website over the original black background. 
