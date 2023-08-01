@@ -128,7 +128,7 @@ div.desc {
     color: #fafafa;
 }
 
-#grid {
+.grid {
     display: flex;
     align-items: center;
     justify-content: space-around;
