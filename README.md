@@ -99,25 +99,42 @@ I will be using Playfair Display for the headings and Montserrat for the body. B
 
 ## Features 
 
-The website was designed moiile-first as it is more likely that users will be viewing this on their phone. There are 3 pages that are displayed in the order Homepage > Portfolio > About. The colour theme is black, white and red throughout. All headings have been given the font Playfair Display and the body text is using Montserrat. The colour scheme and font have been used throughout for consistency. 
+The website was designed mobile-first as it is more likely that users will be viewing this on their phone. There are 3 pages that are displayed in the order Homepage > Portfolio > About. The colour theme is black, white and red throughout. All headings have been given the font Playfair Display and the body text is using Montserrat. The colour scheme and font have been used throughout for consistency. 
 
 ### Menu 
+
+### Desktop view
+
+![Desktop view](assets/images/features-menu.png)
+
+### Small screen view
+
+![Small screen view](assets/images/features-mobile-menu.jpeg)
 
 The navbar and menu items are positioned in the top right of the screen. It consists of 3 links on the desktop view for each available page and has been condensed into a hamburger menu for tablet and mobile. I chose this menu for the smaller screens as the text for the menu items was showing as quite small and could have been an issue for users when trying to navigate. 
 
 ### Image slideshow
 
-The slideshow takes up most of the real estate on the homepage on all devices. It carousels 4 visually striking images that are designed to entice the user to click on the portfolio call to action button to take a look at the rest of the collection. 
+![Slideshow](assets/images/features-slideshow.png)
+
+The slideshow takes up most of the real estate on the homepage on all devices. It carousels 4 visually striking images that are designed to entice the user to click on the portfolio call to action button to take a look at the rest of the collection. The slideshow does automatically display each image and there are 'next and previous' buttons should the user want to find the image they want to look at.  
 
 ### Portfolio 
+
+![Picture of the website on different devices]()
 
 The portfolio page is laid out by country and displays a H2 heading stating the name of the country and 4 thumbnail images with a description of each underneath. The user is able to click these thumbnails to see a larger size of the photo if they want to. This slideshow is responsive and is laid out slightly different on the mobile and tablet to ensure that the user can still look at the photos without having to enlarge them if they want. 
 
 ### About/ Contact page 
 
+![About section](assets/images/features-about.png)
+![Picture of the website on different devices]()
+
 The About page contains an image of me and gives the user a little insight into my route into photography and how I got into taking photos. This text introduces the contact form which consists of 3 text inputs and an email input. The name and email address are required to submit the form so that I am able to respond to them. I styled this to match the overall feel of the website. 
 
 ### Social links 
+
+![Picture of the website on different devices]()
 
 In the footer, I have added 5 Font Awesome icons linking users to Instagram, Pinterest, YouTube, LinkedIn and GitHub if they wish to view more photos or learn more about me.
 
