@@ -244,21 +244,19 @@ footer a i:hover {
 
 /*--------------------------------------------404 Error Page*/
 
-* {
-    text-align:center;
-}
-
 .error-title {
         font-family: "Playfair Display", sans-serif;
         font-size: 50px;
         font-weight: 75;
         color: #fafafa;
+        text-align: center;
 } 
 
 .error-text {
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         color: white;
+        text-align: center;
     }
 
 #error-button {
@@ -268,6 +266,10 @@ footer a i:hover {
         font-family: 'Montserrat', sans-serif;
         text-transform: uppercase;
         color: #fafafa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
 } 
 
 /* ----------------------------------------Media Queries*/
