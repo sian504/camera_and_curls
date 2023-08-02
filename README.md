@@ -165,10 +165,31 @@ To create this project I used the following:
 
 In the planning stages of my site, I outlined the following user stories: 
 
-- As a first time user, I want to see a visually appealing portfolio, so I can quickly understand the photographer's style.
-- As a first time user, I want to navigate a clear and intuitive portfolio, so I can easily explore different sections, such as the photographer's different categories of work and their contact page.
-- As a first time user, I want to view high-quality images in a responsive image gallery, so I can enjoy the photographer's work on any device without sacrificing image quality.
+- ### As a first time user, I want to see a visually appealing portfolio, so I can quickly understand the photographer's style.
+
+    This was achieved on both the portfolio page and the homepage with the visually striking image slideshow. I carefully selected photographs that I believe would stand out on the page and the layout and contrast of the black background helps to create an impact on the user.
+
+- ### As a first time user, I want to navigate a clear and intuitive portfolio, so I can easily explore different sections, such as the photographer's different categories of work and their contact page.
+
+    This was achieved with the easy to use navbar taking the user through a natural progression of the website (Homepage > Portfolio > Contact) allowing them to be introduced to the site and some striking images enticing them to navigate to the portfolio where they can see more images and then next to the about section where they can learn more and contact me if they want to make an enquiry.
+
+- ### As a first time user, I want to view high-quality images in a responsive image gallery, so I can enjoy the photographer's work on any device without sacrificing image quality.
+
+    This was achieved on the portfolio page, the gallery is responsive and can be enjoyed on all devices without impacting on image quality. 
+
+- ### As a returning user, I want to access the photographer's social media links, so I can follow their updates on different platforms and share their work with my network.
+
+    This was achieved by adding social media links to the footer of each page. These are labelled with recognisable icons that the user will associate with the various platforms. These are styled to be in keeping with the overall aesthetic of the site.
+
+- As a returning user, I want to access the photographer's contact page so I can give feedback and ask about a potential collaboration.
+
+    This was achieved by adding a contact form to the About page which is defined and referred to in the Abou Me section. 
+
+- ### As a returning user, I want to see new additions to the photographer's portfolio, so I can stay updated with their latest work and creative projects. 
+
+    This was not acheived in this version of the site due to time constraints. If I had done this I believe I would have indicated new additions to the portfolio by creating a row of images at the top of the portfolio page indicated with a H2 heading of new additions. 
 
 ## Credits 
+
 
 [Homepage design](https://www.youtube.com/watch?v=K3NNBnSA3C4) This website helped me in particular with the linear gradient of the background colour. I felt this added more style to the website over the original black background. 
