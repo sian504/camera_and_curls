@@ -156,18 +156,18 @@ This satisfies the user story: As a returning user, I want to access the photogr
 
 To create this project I used the following:
 
-- HTML - The coding language used to create the structure of the website.
-- CSS  -The coding language used to style the site throughout.
-- Javascript - This was taken from Bootstrap and assisted with the responsive navbar.
-- Google Fonts - Fonts for both the headers and the body text were taken from here. The fonts I used were Playfair and      Montserrat.
-- Font Awesome - Used for the social media icons in the footer.
-- Chrome Developer Tools - Used to test responsiveness across the site.
-- GitHub - Used as a storage space for my pushed code.
-- Git - Used for version control to make commits and push to GitHub.
-- CodeAnywhere - The cloud development environment I used to build the site.
-- Balsamiq - Used to create the wireframes.
-- W3C Markup Validation Service - Used to validate all HTML written for the site.
-- W3C CSS Validation Service - Validated all CSS code written for the site.
+- [HTML](https://www.w3schools.com/html/html_intro.asp) - The coding language used to create the structure of the website.
+- [CSS](https://www.w3schools.com/css/css_intro.asp)  -The coding language used to style the site throughout.
+- [Javascript](https://www.w3schools.com/js/js_intro.asp) - This was taken from Bootstrap and assisted with the responsive navbar.
+- [Google Fonts](https://fonts.google.com/) - Fonts for both the headers and the body text were taken from here. The fonts I used were Playfair and Montserrat.
+- [Font Awesome](https://fontawesome.com/search) - Used for the social media icons in the footer.
+- [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - Used to test responsiveness across the site.
+- [GitHub](https://github.com/) - Used as a storage space for my pushed code.
+- [Git](https://git-scm.com/) - Used for version control to make commits and push to GitHub.
+- [CodeAnywhere](https://app.codeanywhere.com/) - The cloud development environment I used to build the site.
+- [Balsamiq](https://balsamiq.com/wireframes/?gad=1&gclid=CjwKCAjw_aemBhBLEiwAT98FMobUDxLB23AP9HQJA4PuX8EQ4F2Y8N8OozqRSKO3-StWohnjkMaT5BoCC2sQAvD_BwE) - Used to create the wireframes.
+- [W3C Markup Validation Service](https://validator.w3.org/) - Used to validate all HTML written for the site.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Validated all CSS code written for the site.
 - [AmIResponsive](https://ui.dev/amiresponsive) - Used to create the responsive image you see at the top of the README file.
 
 ---
