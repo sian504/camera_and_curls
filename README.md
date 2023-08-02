@@ -99,7 +99,7 @@ I will be using Playfair Display for the headings and Montserrat for the body. B
 
 ## Features 
 
-The website was designed mobile-first as it is more likely that users will be viewing this on their phone. There are 3 pages that are displayed in the order Homepage > Portfolio > About. The colour theme is black, white and red throughout. All headings have been given the font Playfair Display and the body text is using Montserrat. The colour scheme and font have been used throughout for consistency. 
+The website was designed mobile-first as it is likely that users will be viewing this on their phone. There are 3 pages that are displayed in the order Homepage > Portfolio > About. The colour theme is black, white and red throughout. All headings have been given the font Playfair Display and the body text is using Montserrat. The colour scheme and font have been used throughout for consistency. 
 
 ### Menu 
 
@@ -113,17 +113,24 @@ The website was designed mobile-first as it is more likely that users will be vi
 
 The navbar and menu items are positioned in the top right of the screen. It consists of 3 links on the desktop view for each available page and has been condensed into a hamburger menu for tablet and mobile. I chose this menu for the smaller screens as the text for the menu items was showing as quite small and could have been an issue for users when trying to navigate. 
 
+This satisfies the user story: As a first time user, I want to navigate a clear and intuitive portfolio, so I can easily explore different sections, such as the photographer's different categories of work and their contact page.
+
 ### Image slideshow
 
 ![Slideshow](assets/images/features-slideshow.png)
 
 The slideshow takes up most of the real estate on the homepage on all devices. It carousels 4 visually striking images that are designed to entice the user to click on the portfolio call to action button to take a look at the rest of the collection. The slideshow does automatically display each image and there are 'next and previous' buttons should the user want to find the image they want to look at.  
 
+This satisfies the user story: As a first time user, I want to see a visually appealing portfolio, so I can quickly understand the photographer's style.
+
 ### Portfolio 
 
 ![Portolio](assets/images/features-portfolio.png)
 
 The portfolio page is laid out by country and displays a H2 heading stating the name of the country and 4 thumbnail images with a description of each underneath. The user is able to click these thumbnails to see a larger size of the photo if they want to. This slideshow is responsive and is laid out slightly different on the mobile and tablet to ensure that the user can still look at the photos without having to enlarge them if they want. 
+
+This also satisfies the user story: As a first time user, I want to see a visually appealing portfolio, so I can quickly understand the photographer's style and also: As a first time user, I want to view high-quality images in a responsive image gallery, so I can enjoy the photographer's work on any device without sacrificing image quality.
+
 
 ### About/ Contact page 
 
@@ -133,11 +140,15 @@ The portfolio page is laid out by country and displays a H2 heading stating the 
 
 The About page contains an image of me and gives the user a little insight into my route into photography and how I got into taking photos. This text introduces the contact form which consists of 3 text inputs and an email input. The name and email address are required to submit the form so that I am able to respond to them. I styled this to match the overall feel of the website. 
 
+This satisfies the user story: As a returning user, I want to access the photographer's contact page so I can give feedback and ask about a potential collaboration.
+
 ### Social links 
 
 ![Social links](assets/images/features-sociallinks.png)
 
 In the footer, I have added 5 Font Awesome icons linking users to Instagram, Pinterest, YouTube, LinkedIn and GitHub if they wish to view more photos or learn more about me.
+
+This satisfies the user story: As a returning user, I want to access the photographer's social media links, so I can follow their updates on different platforms and share their work with my network.
 
 ---
 
@@ -148,7 +159,7 @@ To create this project I used the following:
 - HTML - The coding language used to create the structure of the website.
 - CSS  -The coding language used to style the site throughout.
 - Javascript - This was taken from Bootstrap and assisted with the responsive navbar.
-- Google Fonts - Fonts for both the headers and the body text were taken from here. The fonts I used were Playfair and  Montserrat.
+- Google Fonts - Fonts for both the headers and the body text were taken from here. The fonts I used were Playfair and      Montserrat.
 - Font Awesome - Used for the social media icons in the footer.
 - Chrome Developer Tools - Used to test responsiveness across the site.
 - GitHub - Used as a storage space for my pushed code.
@@ -163,31 +174,63 @@ To create this project I used the following:
 
 ## Testing
 
-In the planning stages of my site, I outlined the following user stories: 
+### HTML and CSS Validation 
 
-- ### As a first time user, I want to see a visually appealing portfolio, so I can quickly understand the photographer's style.
+I validated my code at the end of the build which I would not recommend doing as it may result in having to unravel a lot of code to fix any errors. Checking at incremental stages of the build will be my preferred method of validating code in future projects. In this case I was fortunate and was only required to change minimal lines of code in both HTML and CSS. 
 
-    This was achieved on both the portfolio page and the homepage with the visually striking image slideshow. I carefully selected photographs that I believe would stand out on the page and the layout and contrast of the black background helps to create an impact on the user.
+I used W3C Markup Validation Service to validate my HTML and W3C CSS Validation Service to validate my CSS. 
 
-- ### As a first time user, I want to navigate a clear and intuitive portfolio, so I can easily explore different sections, such as the photographer's different categories of work and their contact page.
+The errors found in each were as follows: 
 
-    This was achieved with the easy to use navbar taking the user through a natural progression of the website (Homepage > Portfolio > Contact) allowing them to be introduced to the site and some striking images enticing them to navigate to the portfolio where they can see more images and then next to the about section where they can learn more and contact me if they want to make an enquiry.
+#### index.html
 
-- ### As a first time user, I want to view high-quality images in a responsive image gallery, so I can enjoy the photographer's work on any device without sacrificing image quality.
+![Index Errors](assets/images/index-html-error.png)
 
-    This was achieved on the portfolio page, the gallery is responsive and can be enjoyed on all devices without impacting on image quality. 
+These were fixed by removing the slashes from the Bootstrap and Font Awesome and removing the section tags from the image slideshow and the small about me text on the homepage. These were both returning this warning because there was no appropriate heading to introduce the section. I didn't believe either of these features required a heading introducing them and so chose to remove the section tags. 
 
-- ### As a returning user, I want to access the photographer's social media links, so I can follow their updates on different platforms and share their work with my network.
+#### portfolio.html 
 
-    This was achieved by adding social media links to the footer of each page. These are labelled with recognisable icons that the user will associate with the various platforms. These are styled to be in keeping with the overall aesthetic of the site.
+![Portfolio Errors](assets/images/valid-portfolio-html.png)
 
-- As a returning user, I want to access the photographer's contact page so I can give feedback and ask about a potential collaboration.
+I originally applied an ID of grid to each div on the portfolio page as I believed I would need an ID attribute to centre each image. I replaced the ID with a class and the positioning stayed the same which resolved the error/ warning. 
 
-    This was achieved by adding a contact form to the About page which is defined and referred to in the Abou Me section. 
+#### about.html
 
+![About Errors](assets/images/error-about-html.png)
+
+This error occurred because I originally did not give the About me section on the About page or the contact form a heading. I decided that it would be beneficial to include these headings marking each section so it would give a clear indication on what the user could find on this page at a clance. 
+
+Both the submitted.html and 404.html files validated on the first try. 
+
+![404 validation](assets/images/valid-error-html.png)
+
+![Submitted validation](assets/images/valid-submitted-html.png)
+
+#### style.css
+
+![CSS Errors](assets/images/css-errors.png)
+
+The errors were resolved by replacing 'max-width-device' in the media queries to max-width. This was a deprecated feature that I had included when I was researching media queries on the blog post: [Media Queries Demystified: CSS Min-Width and Max-Width](https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/).
+
+The margin error issue was resolved by removing three of the four values from the margin-top of the about class. 
+ 
 - ### As a returning user, I want to see new additions to the photographer's portfolio, so I can stay updated with their latest work and creative projects. 
 
     This was not acheived in this version of the site due to time constraints. If I had done this I believe I would have indicated new additions to the portfolio by creating a row of images at the top of the portfolio page indicated with a H2 heading of new additions. 
+
+### Lighthouse 
+
+Lighthouse is a feature of Chrome developer tools that performs an audit of any URL that it's given and returns an overall score based on website's performance. When I audited the site it returned this: 
+
+![Lighthouse results](assets/images/lighthouse.png)
+
+Considering that I was so close to the project deadline and that this was so close to a 'good' score, I decided that I would prioritise the documentation write up over improving this. To improve the Lighthouse score I would have reduced the size of the images on the homepage slideshow by applying srcset. This would have decreased the time it takes for the slideshow to load. This is important in terms of performance as I believe the image slideshow would be the first contentful paint of the site and having this load quicker would contribute to a better user experience. 
+
+### Further Testing
+
+In addition to the validation and Lighthouse, I used Chrome developer tools and the browser preview to test the efficacy of the CSS styling. 
+
+I also sent the site across to a lot of friends and family for them to view on a variety of devices and browsers to ensure responsiveness. 
 
 ## Credits 
 
