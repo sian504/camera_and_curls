@@ -36,9 +36,9 @@ I designed the portfolio using the core principles of UX. I used this framework 
 
 Camera and Curls is aimed at the following users:
 
-- Art Enthusiasts: People who appreciate fine art photography and may be interested in purchasing prints or supporting your artistic endeavors.
+- Art Enthusiasts: People who appreciate fine art photography and may be interested in purchasing prints or supporting artistic endeavors.
 - Potential Collaborators: Other artists, photographers, or creative professionals who may be interested in collaborating on joint projects or exhibitions.
-- Fans and Followers: Individuals who are interested in your work, follow you on social media, and regularly engage with your photography content.
+- Fans and Followers: Individuals who are interested in the photography, follow the photography on social media, and regularly engage with the content.
 - Students and Aspiring Photographers: Individuals interested in learning more about photography techniques, styles, and artistic vision.
 
 These users would be looking for the following:
@@ -49,7 +49,6 @@ These users would be looking for the following:
 - Image Gallery and Slideshow: A visually appealing image gallery or slideshow feature allows users to view photographs in an engaging and immersive manner.
 
 I wanted to keep the portfolio simple and sleek as well as intuitive. I wanted the photographs presented in the best possible way so that the user was able to understand my photographic style right away.
-
 
 ## Scope
 
@@ -68,12 +67,11 @@ The website will consist of 3 pages:
 
 1. Home page
 2. Portfolio page
-3. Contact form for users who would like to request to work together on a creative project
+3. Contact form (Changed to About) for users who would like to request to work together on a creative project
 
 These pages will be contained in a navigation bar that will appear at the top of each page so that the user is able to navigate easily through all sections of the site. The order of the navigation bar appears in order of priority Home > Portfolio > Contact. I believe this is a natural progression for the user and a layout that will allow them to enjoy the photos best.
 
-The homepage will consist of a visually appealing slideshow of some of my photos along with a short About Me section so that they are able to find out some information about the photographer. All text blocks will be minimal to not distract the user from the images. The portfolio section will allow the user to delve deeper into different categories of photos that I have taken. These will be arranged by the countries they were taken in, in chronological order, so that they are able to see the progression in my ability and style. The contact form will consist of a hero image of a selected photo with a form that allows users to leave their contact details and leave feedback or request to be contacted about a potential collaboration.
-
+The homepage will consist of a visually appealing slideshow of some of my photos along with a short About Me section so that users are able to find out some information about the photographer. All text blocks will be minimal to not distract the user from the images. The portfolio section will allow the user to delve deeper into different categories of photos that I have taken. These will be arranged by the countries they were taken in, in chronological order, so that they are able to see the progression in my ability and style. The contact form will consist of a hero image of a selected photo with a form that allows users to leave their contact details and leave feedback or request to be contacted about a potential collaboration.
 
 ## Skeleton
 
@@ -83,17 +81,17 @@ I have linked the wireframes for each device below:
 - [Tablet](assets/wireframes/tablet-view.pdf)
 - [Mobile](assets/wireframes/mobile-view.pdf)
 
-Since creating the wireframes I made a few changes to the layout of the website. I removed the image of me from the homepage as I feel that this was taking too much real estate on the page and detracting from the image slideshow. Instead I moved this to the new About page that was previously called Contact. I did not make this a hero image as previously planned as the photo would have appeared stretched on the page.
+Since creating the wireframes I made a few changes to the layout of the website. I removed the image of me from the homepage as I felt that this was taking too much real estate on the page and detracting from the image slideshow. Instead I moved this to the new About page that was previously called Contact. I did not make this a hero image as previously planned as the photo would have appeared stretched on the page.
 
-I also changed the small about section on the home page to underneath the slideshow to stay consistent on all devices. 
+I also moved the small about section on the home page to underneath the slideshow to stay consistent on all devices. 
 
 I decided to rename the Contact page to About so that users could find out some more about the photographer and added the contact form at the end to satisfy the user goals. 
 
 ## Surface
 
-The website will be presented with a black background throughout with the exception of the contact page, which will feature a hero image of a selected photo in the background with a contact form layered over the top of it. The reason for the black background choice is to ensure that the photos will visually stand out. The nav bar will be a contrasting color with an image of me in the top left corner of the screen. The text will be white to contrast the dark color of the background to allow users to read the about me section clearly.
+The website will be presented with a black background throughout with the exception of the contact page, which will feature an image of a selected photo with a contact form underneath it. The reason for the black background choice is to ensure that the photos will visually stand out. The nav bar will be a contrasting color. The text contained in the body will be white to contrast the dark color of the background to allow users to read the about me section clearly.
 
-I will be using Playfair Display for the headings and Montserrat for the body. By using this font pairing, my portfolio website will have a cohesive and polished appearance, while still allowing the images to take center stage.
+I will be using Playfair Display for the headings and Montserrat for the body. By using this font pairing, my website will have a cohesive and polished appearance, while still allowing the images to take center stage.
 
 ---
 
@@ -111,7 +109,7 @@ The website was designed mobile-first as it is likely that users will be viewing
 
 ![Small screen view](assets/images/features-mobile-menu.jpeg)
 
-The navbar and menu items are positioned in the top right of the screen. It consists of 3 links on the desktop view for each available page and has been condensed into a hamburger menu for tablet and mobile. I chose this menu for the smaller screens as the text for the menu items was showing as quite small and could have been an issue for users when trying to navigate. 
+The navbar and menu items are positioned in the top right of the screen. It consists of 3 links on the desktop view for each available page and has been condensed into a hamburger menu for tablet and mobile. I chose this menu for the smaller screens as the text for the menu items was displaying as small and could have been an issue for users when trying to navigate. 
 
 This satisfies the user story: As a first time user, I want to navigate a clear and intuitive portfolio, so I can easily explore different sections, such as the photographer's different categories of work and their contact page.
 
@@ -138,7 +136,7 @@ This also satisfies the user story: As a first time user, I want to see a visual
 
 ![Contact form](assets/images/features-contactform.png)
 
-The About page contains an image of me and gives the user a little insight into my route into photography and how I got into taking photos. This text introduces the contact form which consists of 3 text inputs and an email input. The name and email address are required to submit the form so that I am able to respond to them. I styled this to match the overall feel of the website. 
+The About page contains an image of me and gives the user a little insight into my route into photography. This text introduces the contact form which consists of 3 text inputs and an email input. The name and email address are required to submit the form so that I am able to respond to them. I styled this to match the overall feel of the website. 
 
 This satisfies the user story: As a returning user, I want to access the photographer's contact page so I can give feedback and ask about a potential collaboration.
 
@@ -178,7 +176,7 @@ To create this project I used the following:
 
 I validated my code at the end of the build which I would not recommend doing as it may result in having to unravel a lot of code to fix any errors. Checking at incremental stages of the build will be my preferred method of validating code in future projects. In this case I was fortunate and was only required to change minimal lines of code in both HTML and CSS. 
 
-I used W3C Markup Validation Service to validate my HTML and W3C CSS Validation Service to validate my CSS. 
+I used [W3C Markup Validation Service]((<https://validator.w3.org/>)) to validate my HTML and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate my CSS.
 
 The errors found in each were as follows: 
 
@@ -236,9 +234,9 @@ An unresolved issue present on the site is the gap between the right side of the
 
 I believe this may be caused by my use of the Bootstrap grid to force my divs to centre on the page. I will illustrate my point using the code in my index.html page. 
 
-![Cause of issue](assets/images/issue.png)
+![Cause of issue](assets/images/issue-two.png)
 
-When I first added the slideshow onto the homepage, I had an issue with getting it to centre on the page. To resolve this I including col-md-2 on either side of the slideshow as indicated in the above photo. The empty divs forced the slideshow to centre without having to apply any additional CSS. I did this on a lot of my HTML pages to force the desired positioning which is why I believe this issue is present on other pages too.
+When I first added the slideshow onto the homepage, I had an issue with getting it to centre on the page. To resolve this I included col-md-2 on either side of the slideshow as indicated in the above photo. The empty divs forced the slideshow to centre without having to apply any additional CSS. I did this on a lot of my HTML pages to force the desired positioning which is why I believe this issue is present on other pages too.
 
 Whilst I was successful in forcing the positioning, I have a suspicion that the columns are causing this gap. If I were to have more time, I would have done further research into applying effective styling that would have centered the slideshow without having to use the Bootstrap grid in this way. 
 
