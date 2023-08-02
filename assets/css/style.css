@@ -1,6 +1,8 @@
 
 /*--------------------------------------------Colours*/
 
+/*-Linear gradient idea taken from Divinector - https://www.youtube.com/watch?v=K3NNBnSA3C4*/
+
 body {
     background: linear-gradient(to right, #000000, #302F2F)
 }
@@ -106,6 +108,8 @@ header {
 
 /* ----------------------------------------Portfolio */
 
+/* Styling adapted from the code on W3 Schools - https: //www.w3schools.com/css/css_image_gallery.asp */
+
 div.gallery {
     margin: 10px;
     border: 1px solid #ccc;
@@ -154,6 +158,8 @@ div.desc {
 .raise {
     margin-bottom: 75px;
 }
+
+/* Styling adapted from code on W3 Schools - https: //www.w3schools.com/howto/howto_css_contact_form.asp */
 
 input[type=text],
 input[type=email],
@@ -273,6 +279,8 @@ footer a i:hover {
 } 
 
 /* ----------------------------------------Media Queries*/
+
+/* Formation of media query assisted by code on Email on Acid - https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/ */
 
 @media screen and (max-width: 500px) {
 

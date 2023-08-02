@@ -168,7 +168,7 @@ To create this project I used the following:
 - Balsamiq - Used to create the wireframes.
 - W3C Markup Validation Service - Used to validate all HTML written for the site.
 - W3C CSS Validation Service - Validated all CSS code written for the site.
-- AmIResponsive - Used to create the responsive image you see at the top of the README file.
+- [AmIResponsive](https://ui.dev/amiresponsive) - Used to create the responsive image you see at the top of the README file.
 
 ---
 
@@ -283,4 +283,20 @@ You can clone your repository by completing the following steps:
 
 ## Credits 
 
-[Homepage design](https://www.youtube.com/watch?v=K3NNBnSA3C4) This website helped me in particular with the linear gradient of the background colour. I felt this added more style to the website over the original black background. 
+I have used a number of resources to produce this website, where code has been used found from another source this is credited as a comment within the HTML and CSS files.
+
+I was assisted by various articles involving: 
+
+[Background colour design](https://www.youtube.com/watch?v=K3NNBnSA3C4) This website helped me in particular with the linear gradient of the background colour. I felt this added more style to the website over the original black background. 
+
+[Contact form](https://www.w3schools.com/howto/howto_css_contact_form.asp) This was used as a general template but adapted the html to suit the needs of the site. I also applied additional styling to maintain the overall look of the site.
+
+[Media Queries](https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/) - This was used in particular to ascertain the correct pixel sizes to put into the media query to target the correct device.
+
+[Image Gallery](https://www.w3schools.com/css/css_image_gallery.asp) - This site provided the code to build the image gallery on the portfolio page. This was adapted to fit into the Bootsrap grid and styled by further CSS to be in keeping with the site's aesthetic. [Stack Overflow](https://www.w3schools.com/css/css_image_gallery.asp) were also instrumental in helping me to achieve centering the gallery. 
+
+---
+
+## Acknowledgements 
+
+I would like to thank my mentor, Harry Dhillon for all of his support and guidance through the creation of this project. 
