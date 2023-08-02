@@ -214,10 +214,6 @@ The errors were resolved by replacing 'max-width-device' in the media queries to
 
 The margin error issue was resolved by removing three of the four values from the margin-top of the about class. 
  
-- ### As a returning user, I want to see new additions to the photographer's portfolio, so I can stay updated with their latest work and creative projects. 
-
-    This was not acheived in this version of the site due to time constraints. If I had done this I believe I would have indicated new additions to the portfolio by creating a row of images at the top of the portfolio page indicated with a H2 heading of new additions. 
-
 ### Lighthouse 
 
 Lighthouse is a feature of Chrome developer tools that performs an audit of any URL that it's given and returns an overall score based on website's performance. When I audited the site it returned this: 
@@ -232,7 +228,59 @@ In addition to the validation and Lighthouse, I used Chrome developer tools and 
 
 I also sent the site across to a lot of friends and family for them to view on a variety of devices and browsers to ensure responsiveness. 
 
-## Credits 
+### Known Bugs and Improvements
 
+An unresolved issue present on the site is the gap between the right side of the site and the end of the browser window which is visible on all screensizes. You are able to see what I mean in the below screenshot: 
+
+![Issue Screenshot](assets/images/issue.png)
+
+I believe this may be caused by my use of the Bootstrap grid to force my divs to centre on the page. I will illustrate my point using the code in my index.html page. 
+
+![Cause of issue](assets/images/issue.png)
+
+When I first added the slideshow onto the homepage, I had an issue with getting it to centre on the page. To resolve this I including col-md-2 on either side of the slideshow as indicated in the above photo. The empty divs forced the slideshow to centre without having to apply any additional CSS. I did this on a lot of my HTML pages to force the desired positioning which is why I believe this issue is present on other pages too.
+
+Whilst I was successful in forcing the positioning, I have a suspicion that the columns are causing this gap. If I were to have more time, I would have done further research into applying effective styling that would have centered the slideshow without having to use the Bootstrap grid in this way. 
+
+Another feature I decided to de-prioritise was to add a 'new additions' section of the portfolio which would have satisfied the following user story: As a returning user, I want to see new additions to the photographer's portfolio, so I can stay updated with their latest work and creative projects
+
+I would have liked to have used Javascript to create a moving border to indicate this section so it would stand out to returning users when they navigated to the portfolio page. I would have liked this to look similar to what is shown in the article [CSS border animations](https://web.dev/css-border-animations/).
+
+
+## Deployment
+
+The project is deployed using GitHub pages. This was achieved by completing the following steps: 
+
+1. Navigate to the "Settings" tab in the GitHub repository.
+2. Select "Pages" from the menu on the left.
+3. Under the "Source" section, select "Deploy from a branch" and "Branch: main." Click on "Save."
+4. GitHub takes a short while to publish the website. Refresh the page, if not done automatically, and once the website is deployed, the URL will be displayed.
+
+### Forking the Github Repository
+
+If you want to make changes to your repository without affecting it, you can make a copy of it by 'Forking' it. This ensures your original repository remains unchanged.
+
+You can fork a GitHub Repository by completing the following steps: 
+
+1. Find the GitHub repository.
+2. At the top of the page to the right, under your account, click the Fork button.
+3. You will now have a copy of the repository in your GitHub account.
+
+### Cloning the GitHub Repository
+
+Cloning your repository will allow you to download a local version of the repository. Cloning can also be a great way to backup your work. 
+
+You can clone your repository by completing the following steps: 
+
+1. Find the relevant GitHub repository
+2. Press the arrow on the Code button
+3. Copy the link that is shown in the drop-down
+4. Now open Gitpod & select the directory location where you would like the clone created
+5. In the terminal type 'git clone' & then paste the link you copied in GitHub
+6. Press enter and your local clone will be created.
+   
+---
+
+## Credits 
 
 [Homepage design](https://www.youtube.com/watch?v=K3NNBnSA3C4) This website helped me in particular with the linear gradient of the background colour. I felt this added more style to the website over the original black background. 
